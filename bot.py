@@ -1,5 +1,5 @@
 import telebot as tb
-bot = tb.TeleBot("")
+bot = tb.TeleBot("7017864172:AAEjHeeAkyqq4Hbf_IIKayULDqhI6aIly20")
 
 @bot.message_handler(commands=["echo"])
 def echo(message):
